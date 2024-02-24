@@ -1,0 +1,240 @@
+// GET /items
+// Format:
+
+// {
+//     "name": "Cobalt Pick",
+//     "img": "cobalt-pick",
+//     "time": 5, // default 0
+//     "max": 1, // default 1
+//     "price": 1000,
+//     "scaling": 1 // default 1
+// }
+
+{
+    "boosters": [
+        {
+            "name": "Big Booster",
+            "img": "arrows",
+            "price": 0
+        }
+    ],
+    "upgrades": [
+        {
+            "name": "Greed",
+            "base": 500,
+            "increment": 1,
+            "price": 5,
+            "scaling": 1.4,
+            "format": "+{0}%"
+        }
+    ],
+    "items": [
+        {
+            "name": "Acid",
+            "img": "acid",
+            "max": 5,
+            "price": 750,
+            "scaling": 1.4 
+        }, {
+            "name": "Bouncy Ball",
+            "img": "bouncyball",
+            "max": 5,
+            "price": 1000,
+            "scaling": 1.4 
+        }, {
+            "name": "Iron Chisel",
+            "img": "iron-chisel",
+            "time": 30,
+            "price": 5000,
+            "scaling": 1.4 
+        }, {
+            "name": "Steel Pick",
+            "img": "steel-pick",
+            "time": 30,
+            "price": 25000,
+            "scaling": 1.4 
+        }, {
+            "name": "Cobalt Pick",
+            "img": "cobalt-pick",
+            "time": 30,
+            "price": 125000,
+            "scaling": 1.4 
+        }, {
+            "name": "Ruby Pick",
+            "img": "ruby-pick",
+            "time": 30,
+            "price": 625000,
+            "scaling": 1.4 
+        }
+    ],
+    "multipliers": [
+        {
+            "factor": 2,
+            "price": 20
+        },
+        {
+            "factor": 12,
+            "price": 100
+        },
+        {
+            "factor": 72,
+            "price": 500
+        }
+    ],
+    "tasks": [
+        {
+            "text": "Break your first cubit",
+            "stat": "broken",
+            "needed": 1,
+            "reward": 100,
+            "unit": "coins",
+            "skippable": false
+        },
+        {
+            "text": "Upgrade luck",
+            "stat": "luck",
+            "needed": 1,
+            "reward": 100,
+            "unit": "coins",
+            "skippable": false
+        },
+        {
+            "text": "Break 50 cubits",
+            "stat": "broken",
+            "needed": 50,
+            "reward": 3500,
+            "unit": "coins",
+            "skippable": false
+        },
+        {
+            "text": "Use booster",
+            "stat": "boosters",
+            "needed": 1,
+            "reward": 1,
+            "unit": "cubits",
+            "skippable": false
+        },
+        {
+            "text": "Refer a friend",
+            "stat": "referrals",
+            "needed": 1,
+            "reward": 3,
+            "unit": "cubits",
+            "skippable": false
+        },
+        {
+            "text": "Stay online for 10 min.",
+            "stat": "minutes",
+            "needed": 10,
+            "reward": 3700,
+            "unit": "coins"
+        },
+        {
+            "text": "Break 500 cubits",
+            "stat": "broken",
+            "needed": 500,
+            "reward": 3800,
+            "unit": "coins"
+        },
+        {
+            "text": "Stay online for 30 min.",
+            "stat": "minutes",
+            "needed": 30,
+            "reward": 4100,
+            "unit": "coins"
+        },
+        {
+            "text": "Refer 5 friends",
+            "stat": "referrals",
+            "needed": 5,
+            "reward": 3,
+            "unit": "cubits"
+        },
+        {
+            "text": "Break 1000 cubits",
+            "stat": "broken",
+            "needed": 1000,
+            "reward": 4800,
+            "unit": "coins"
+        },
+        {
+            "text": "Play 2 days in a row",
+            "stat": "streak",
+            "needed": 2,
+            "reward": 3,
+            "unit": "cubits",
+            "skippable": false
+        },
+        {
+            "text": "Break 2000 cubits",
+            "stat": "broken",
+            "needed": 2000,
+            "reward": 3,
+            "unit": "cubits"
+        },
+        {
+            "text": "Stay online for 1 hour",
+            "stat": "minutes",
+            "needed": 60,
+            "reward": 5000,
+            "unit": "coins"
+        },
+        {
+            "text": "Refer 10 friends",
+            "stat": "referrals",
+            "needed": 10,
+            "reward": 5,
+            "unit": "cubits",
+            "skippable": false
+        },
+        {
+            "text": "Break 5000 cubits",
+            "stat": "broken",
+            "needed": 5000,
+            "reward": 5300,
+            "unit": "coins"
+        },
+        {
+            "text": "Witness 1 layer break",
+            "stat": "layers",
+            "needed": 1,
+            "reward": 5,
+            "unit": "cubits",
+            "skippable": false
+        },
+        {
+            "text": "Break 15000 cubits",
+            "stat": "broken",
+            "needed": 15000,
+            "reward": 5700,
+            "unit": "coins"
+        },
+        {
+            "text": "Stay online for 3 hours",
+            "stat": "minutes",
+            "needed": 180,
+            "reward": 5800,
+            "unit": "coins"
+        },
+        {
+            "text": "Play 5 days in a row",
+            "stat": "streak",
+            "needed": 5,
+            "reward": 5,
+            "unit": "cubits",
+            "skippable": false
+        }
+    ],
+    "slots": [
+        {
+            "reward": "item:acid",
+            "img": "acid",
+            "name": "Acid",
+            "odds": 10
+        }
+    ]
+}
+
+
+
+
